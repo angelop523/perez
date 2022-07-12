@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+    background-image: url('hehe.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 220px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+input[type="button"] {
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Profile Card</h2>
+
+<div class="card">
+  <img src="intruder.jpg" alt="John" style="width:100%">
+  <h1>John Doe</h1>
+  <p class="title">The Mandela Catalogue</p>
+  <p>The Intruder</p>
+  <div style="margin: 24px 0;">
+    <a onclick="location.href='https://mandela-catalogue.fandom.com/wiki/Intruder_Alert'"><i class="fa fa-google"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a onclick="location.href='https://www.youtube.com/watch?v=KL9Q0KItf-8'"><i class="fa fa-youtube"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+  <input type="button" value="back" onclick="location.href='iseeyou.html'"/>
+</div>
+
+</body>
+</html>
